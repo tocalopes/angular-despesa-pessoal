@@ -1,3 +1,4 @@
+import { HomeModule } from './../../../views/home/home.module';
 import { NavComponent } from './nav.component';
 import { NgModule } from "@angular/core";
 import { CommonModule } from '@angular/common';
@@ -9,7 +10,8 @@ import {MatListModule} from '@angular/material/list';
   imports: [
     CommonModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    HomeModule
   ],
   exports: [NavComponent],
 
