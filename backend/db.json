@@ -1,4 +1,67 @@
 {
+    "users":[
+        {
+            "id" : 1,
+            "userName" : "gabriel",
+            "password" : 123
+        }
+    ],
+    "questions": [
+        {
+            "id" : 1,
+            "description": "Qual o teu nome?",
+            "idUser": 1
+        },
+        {
+            "id" : 2,
+            "description": "Qual o tua idade?",
+            "idUser": 1
+        }
+    ],
+    "alternatives": [
+        {
+            "id": 1,
+            "option": "A",
+            "description": "Gabriel",
+            "idQuestao": 1,
+            "isTrue": true
+        },
+        {
+            "id": 2,
+            "option": "B",
+            "description": "Rabriel",
+            "idQuestao": 1,
+            "isTrue": false
+        },
+        {
+            "id": 3,
+            "option": "C",
+            "description": "Salamandrinha",
+            "idQuestao": 1,
+            "isTrue": false
+        },
+        {
+            "id": 4,
+            "option": "A",
+            "description": "714",
+            "idQuestao": 2,
+            "isTrue": false
+        },
+        {
+            "id": 5,
+            "option": "B",
+            "description": "12",
+            "idQuestao": 1,
+            "isTrue": false
+        },
+        {
+            "id": 5,
+            "option": "C",
+            "description": "23",
+            "idQuestao": 1,
+            "isTrue": true
+        }
+    ],
     "expenses": [
         {
             "id" : 1,
