@@ -1,0 +1,19 @@
+{
+    "expenses": [
+        {
+            "id" : 1,
+            "description" : "notebook",
+            "price": 2500
+        },
+        {
+            "id" : 2,
+            "description" : "manga",
+            "price": 2.99
+        },
+        {
+            "id" : 3,
+            "description" : "ração",
+            "price": 50
+        }
+    ]
+}
